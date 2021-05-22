@@ -1,0 +1,113 @@
+body {
+margin:0;
+background: #abc4ed;
+font-family: 'Inconsolata', monospace;
+font-size: 21px;
+line-height: 2;
+color: #000;
+}
+
+.container {
+width: 100%;
+max-width: 1400px;
+margin: 0 auto;
+}
+
+.container2 {
+width: 300px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: left;
+}
+
+.intro {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+  width: 100%;
+  height: 750px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.intro_title {
+	padding-top: 100px;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+.intro_inner {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.header{
+    display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+  width: 100%;
+  height: 95px;
+	width: 100%;
+	padding-top: 15px;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	z-index:1000;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo{
+font-family: 'Lobster', cursive;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.nav {
+	font-size: 14px;
+}
+
+.nav_link {
+	font-family: 'Goblin One', cursive;
+	color: #000;
+	word-spacing: 6px;
+	text-decoration: none;
+}
+
+
+.table {
+
+	text-align: center;
+}
+
+.btn {
+	background: #6291de;
+}
+
+.radio1 {
+	font-size: 19px;
+	display: inline-block;
+	
+}
+
+input {
+	padding: 2px;
+	outline-color: #abc4ed;
+	background: #abc4ed;
+}
+
+::placeholder {
+	background: #abc4ed;
+	color: #000;
+}
+
+	 input[type=date]:invalid::-webkit-datetime-edit {
+   color: #000;
+}
